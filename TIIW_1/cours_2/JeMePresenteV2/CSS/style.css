@@ -1,0 +1,92 @@
+/* Premiere feuille css */
+/* Programmé par Sophie B */
+/* 7 mars 2019 */
+
+body
+    {
+    width: 900px;
+    background: url(../Images/image_de_fond_geometrique.jpg) no-repeat top;
+    background-color: #f5e0a9;
+    margin: auto;
+    }
+
+h1
+    {
+    font-size: 36px;
+    }
+
+h2
+    {
+    font-size: 24px;
+    }
+
+h1, h2
+    {
+    color: #85858b;
+    text-align: center;
+    }
+
+p
+    {
+    font-size: 14px;
+    text-align: justify;
+    }
+
+a h2
+    {
+    color: deepskyblue;
+    }
+
+a:link
+    {
+    text-decoration: none;
+    }
+
+a:visited h2
+    {
+    color: darkblue;
+    }
+
+a:hover
+    {
+    text-decoration: underline;
+    }
+
+img
+    {
+    width: 300px;
+    border-radius: 10px;
+    }
+
+img:hover
+    {
+    box-shadow: 4px 4px 5px #85858b;
+    }
+
+
+table
+    {
+    width: 300px;
+    }
+
+th
+    {
+    border: 1px solid #85858b;
+    text-align: left;
+    font-size: 12px;
+    color: #ba3a2c;
+    }
+
+table, td, tr
+    {
+    border: 1px solid #85858b;
+    font-size: 10px;
+    color: #555346;
+    }
+
+li
+    {
+    font-size: 18px;
+    color: #ba3a2c;
+    }
+
