@@ -1,0 +1,63 @@
+/* Exercices feuille classe.css */
+/* Programmé par Sophie B */
+/* 14 mars 2019 */
+
+@font-face
+{
+    font-family: policeraven;
+    src:url("RAVEN.TTF");
+}
+
+#Jemepresente
+{
+    Background-color: #85858b;
+}
+
+#mesetudes
+{
+    Background-color:#459ad1;
+}
+
+#mesloisirs
+{
+    Background-color:#b0afb2;
+}
+
+#messports
+{
+    Background-color:#95aa56;
+}
+
+#mesreves
+{
+    Background-color: #6a6a6c;
+}
+
+.belleImage
+{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.belleImage:hover
+{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.fonth1
+{
+    font-family: policeraven;
+    color: #3c3c3d;
+    font-size: 35px;
+    margin: 0;
+}
+
+.fonth2
+{
+    font-family: 'Rock Salt', cursive;
+    color: orangered;
+    font-size: 18px;
+    margin: 0;
+
+}
