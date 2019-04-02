@@ -1,0 +1,113 @@
+/* Exercices feuille Récap Bootstrap */
+/* Programmé par Sophie B */
+/* 28 mars 2019 */
+
+@font-face
+{
+    font-family: RAVEN;
+    src: url(../font/RAVEN.ttf);
+}
+
+.html,body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.bg
+{
+    background-image: url("../IMG/fond-keto.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hauteur600
+{
+    height: 600px;
+}
+
+.hauteur450
+{
+    height: 450px;
+}
+
+.hauteur300
+{
+    height: 300px;
+}
+
+.hauteur100
+{
+    height: 100px;
+}
+
+.pblanc
+{
+    font-size: 23px;
+    text-shadow: 2px 1px #1b1e21;
+    color: white;
+    text-align: center;
+}
+
+.vert
+{
+    height: 100%;
+    background-color: #1e7e34;
+}
+
+.icone
+{
+    color: #1e7e34;
+}
+
+
+h1
+{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: RAVEN;
+    text-align: center;
+    color: #1e7e34;
+}
+
+h2
+{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: RAVEN;
+    text-align: center;
+    color: #1b1e21;
+}
+
+p
+{
+    font-size: 22px;
+    color: #1b1e21;
+    text-align: center;
+}
+
+img
+{
+    margin: 0;
+    padding: 0;
+}
+
+hr
+{
+    max-width: 125px;
+    border-width: 4px;
+    border-color:#1e7e34;
+}
+
+.gris
+{
+    max-width: 125px;
+    border-width: 4px;
+    border-color:#1b1e21;
+}
+
+.bouton
+{
+    margin: 20px;
+}
