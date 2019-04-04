@@ -5,9 +5,9 @@
 @font-face
 {
     font-family: RAVEN;
-    src: url(../font/RAVEN.TTF);
-    src: url(../font/RAVEN.woff);
-    src: url(../font/RAVEN.woff2);
+    src: url(../font/RAVEN.TTF),
+    url(../font/RAVEN.woff) format('woff'),
+    url(../font/RAVEN.woff2) format('woff2');
 }
 
 .html,body
