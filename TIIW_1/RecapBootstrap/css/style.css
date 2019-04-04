@@ -5,7 +5,9 @@
 @font-face
 {
     font-family: RAVEN;
-    src: url(../font/RAVEN.ttf);
+    src: url(../font/RAVEN.TTF);
+    src: url(../font/RAVEN.woff);
+    src: url(../font/RAVEN.woff2);
 }
 
 .html,body
@@ -66,7 +68,7 @@ h1
 {
     margin-bottom: 30px;
     font-size: 50px;
-    font-family: RAVEN;
+    font-family: RAVEN sans-serif;
     text-align: center;
     color: #1e7e34;
 }
@@ -75,7 +77,7 @@ h2
 {
     margin-top: 20px;
     font-size: 30px;
-    font-family: RAVEN;
+    font-family: RAVEN sans-serif;
     text-align: center;
     color: #1b1e21;
 }
