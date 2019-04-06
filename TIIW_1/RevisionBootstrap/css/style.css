@@ -1,0 +1,40 @@
+/* Exercices feuille Récap Bootstrap */
+/* Programmé par Sophie B */
+/* 28 mars 2019 */
+
+@font-face
+{
+    font-family: RAVEN;
+    src: url(../font/RAVEN.ttf);
+}
+
+.html,body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.bg
+{
+    background-image: url("../img/");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+hr
+{
+    max-width: 125px;
+    border-width: 4px;
+    border-color:#1e7e34;
+}
+
+h2
+{
+    text-align: left;
+}
+
+h5
+{
+    color: #0069d9;
+}
