@@ -2,7 +2,7 @@
 <html lang="fr-ca">
 <head>
     <meta charset="UTF-8">
-    <title>Recap Bootstrap</title>
+    <title>Revision Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Très important d'apporter notre css sous le bootstrap pour que notre css est priorité -->
@@ -12,70 +12,78 @@
 
 <body>
 
-<div class ="container-fluid">
+<div class ="container">
 
    <div class="row">
 
-        <div class="col-xl-3 text-center">
-            <div class="card bg-light mb-3">
-
-                <div class="card-body">
-                    <div class="card bg-light mb-3">
-
+        <div class="col-xl-3 col-12 text-center">
+        <div class="row">
+            <div class="card bg-secondary my-2">
+                <div class="card-body p-3">
+                    <div class="card bg-light my-3">
                         <div class="card-body">
                             <h5 class="card-title">My Profile</h5>
-                            <img class="rounded-circle img-fluid" src="img/Sophie.JPG" alt="sophie" width="70" height="70">
+                            <img class="rounded-circle img-fluid" src="img/Sophie.JPG" alt="sophie">
                         </div>
                     </div>
                     <div class="card bg-light mb-3">
 
                         <div class="card-body">
                             <h5 class="card-title">Interests</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <span class="badge badge-secondary">New</span>
+                            <span class="badge badge-primary">W3Schools</span>
+                            <span class="badge badge-success">Label</span>
+                            <br>
+                            <span class="badge badge-info">Hiking</span>
+                            <span class="badge badge-warning">Arts</span>
+                            <span class="badge badge-danger">Family</span>
                         </div>
                     </div>
-                    <div class="card bg-light mb-3">
-
+                    <div class="card green mb-3">
                         <div class="card-body">
                             <h5 class="card-title">Ey!</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                                 the card's content.</p>
                         </div>
+
                     </div>
+                    <button type="button" class="btn btn-link blanc"><i class="far fa-file-image"></i> Photos</button>
+                    <br>
+                    <button type="button" class="btn btn-link blanc"><i class="fas fa-user-friends"></i> Amis</button>
+                    <br>
+                    <button type="button" class="btn btn-link blanc"><i class="far fa-comments"></i> Messenger</button>
+                    <br>
                 </div>
             </div>
-
+        </div>
         </div>
 
-        <div class="col-xl-7">
+        <div class="col-xl-7 col-12">
+        <div class="row">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card bg-light mb-3">
-
+                        <div class="card bg-light my-2">
                             <div class="card-body">
-                                <h2>Status : Feeling Blue</h2>
-                                <button type="button" class="btn btn-link"><i class="far fa-thumbs-up"></i>Like</button>
+                                <h2>Status : Feel Happy </h2>
+                                <button type="button"  class="btn btn-outline-primary button"><i class="far fa-thumbs-up"></i>Like</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card bg-light mb-3">
-
-                            <div class="card-body text-center">
+                    <div class="col-xl-3 col-4">
+                        <div class="card bg-light my-2">
+                            <div class="card-body p-2 text-center">
                                 <h5 class="card-title">Félix</h5>
-                                <img class="rounded-circle img-fluid" src="img/Felix.JPG" alt="Félix" width="70" height="70">
+                                <img class="img-fluid rounded-circle" src="img/Felix.JPG" alt="Félix">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-9">
-                        <div class="card bg-light mb-3">
+                    <div class="col-xl-9 col-8">
+                        <div class="card bg-light my-2 hauteur90">
 
-                            <div class="card-body">
+                            <div class="card-body p-2">
                                 <p class="card-text text-center">Je fais aujourd'hui ce que les autres ne font pas,
                                 pour avoir demain ce que les autres n'auront pas!</p>
                             </div>
@@ -83,19 +91,18 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card bg-light mb-3">
-
-                            <div class="card-body text-center">
+                    <div class="col-xl-3 col-4">
+                        <div class="card bg-light my-2">
+                            <div class="card-body p-2 text-center">
                                 <h5 class="card-title">Elo</h5>
-                                <img class="rounded-circle img-fluid" src="img/Elo.jpg" alt="elo" width="70" height="70">
+                                <img class="rounded-circle img-fluid" src="img/Elo.jpg" alt="elo">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-9">
-                        <div class="card bg-light mb-3">
+                    <div class="col-xl-9 col-8">
+                        <div class="card bg-light my-2 hauteur90">
 
-                            <div class="card-body text-center">
+                            <div class="card-body p-2 text-center">
                                 <p class="card-text">Allô, je ne sais pas c’est quoi faire preuve de rationalité parce que je me laisse
                                     allée par mes genoux brisés qui veulent des affaires pas possible, genre toi. 😽</p>
                                 <p class="card-text">Choice: Virginie Richer Rose Fréchette Nadeige Leclair</p>
@@ -104,39 +111,38 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card bg-light mb-3">
+                    <div class="col-xl-3 col-4">
+                        <div class="card bg-light my-2">
 
-                            <div class="card-body text-center">
+                            <div class="card-body p-2 text-center">
                                 <h5 class="card-title">Lorik</h5>
-                                <img class="rounded-circle img-fluid" src="img/Lorik.jpg" alt="lorik" width="60" height="60">
+                                <img class="rounded-circle img-fluid" src="img/Lorik.jpg" alt="lorik">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-9">
-                        <div class="card bg-light mb-3">
+                    <div class="col-xl-9 col-8">
+                        <div class="card bg-light my-2 hauteur90">
 
-                            <div class="card-body text-center">
+                            <div class="card-body p-2 text-center">
                                 <p class="card-text">Accro aux jeux vidéo</p>
                                 <p class="card-text">Fan fini de Furious Jumper</p>
-                                <p class="card-text">J'aurais moi aussi ma chemise à carreaux bientôt!</p>
+                                <p class="card-text">J'aurai moi aussi ma chemise à carreaux bientôt!</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card bg-light mb-3">
-
-                            <div class="card-body text-center">
+                    <div class="col-xl-3 col-4">
+                        <div class="card bg-light my-2">
+                            <div class="card-body p-2 text-center">
                                 <h5 class="card-title">Furious Jumper</h5>
-                                <img class="rounded-circle img-fluid" src="img/FuriousJumper.png" alt="Furious Jumper" width="60" height="60">                            </div>
-                        </div>
+                                <img class="rounded-circle img-fluid" src="img/FuriousJumper.png" alt="Furious Jumper">
+                            </div>
+                         </div>
                     </div>
-                    <div class="col-xl-9">
-                        <div class="card bg-light mb-3">
-
-                            <div class="card-body text-center">
+                    <div class="col-xl-9 col-8">
+                        <div class="card bg-light my-2 hauteur90">
+                            <div class="card-body p-2 text-center">
                                 <p class="card-text">Aujourd'hui j'ai eu la chance et l'immense honneur de réaliser le rêve de ce garçon malade avec
                                     un cœur d'or nommé Paolo ☺ il m'a donné une grande leçon de vie avec sa persévérance et sa force </p>
                             </div>
@@ -145,40 +151,46 @@
                 </div>
             </div>
         </div>
-
-        <div class="col-xl-2">
-            <div class="card bg-light mb-3">
-
-                <div class="card-body">
-                    <div class="card bg-light mb-3">
+        </div>
+        <div class="col-xl-2 col-12 text-center">
+         <div class="row">
+            <div class="card bg-secondary my-2">
+                <div class="card-body p-3">
+                <div class="card bg-light my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Évenements à venir:</h5>
+                    </div>
+                </div>
+                    <div class="card bg-light my-3">
 
                         <div class="card-body">
-                            <h5 class="card-title">Upcomming Events:</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <img class="img-fluid rounded" src="img/Montreal.jpg" alt="">
+                            <h4>Montréal</h4>
+                            <p class="card-text">27 - 28 Avril 2019</p>
+                            <button type="button" class="button btn btn-primary">Info</button>
                         </div>
                     </div>
-                    <div class="card bg-light mb-3">
-
+                    <div class="card bg-light my-3">
                         <div class="card-body">
-                            <h5 class="card-title">ADS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <img class="img-fluid rounded" src="img/Sherbrooke.jpg" alt="">
+                            <h4>Sherbrooke</h4>
+                            <p class="card-text">11 - 12 Mai 2019</p>
+                            <button type="button" class="button btn btn-primary">Info</button>
                         </div>
                     </div>
-                    <div class="card bg-light mb-3">
-
+                    <div class="card bg-light my-3">
                         <div class="card-body">
-                            <h5 class="card-title">ADS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <img class="img-fluid rounded" src="img/TroisRivieres.jpg" alt="">
+                            <h4>Trois-Rivières</h4>
+                            <p class="card-text">15 - 16 Juin 2019</p>
+                            <button type="button" class="button btn btn-primary">Info</button>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-
+        </div>
    </div>
-
 </div>
 
 
