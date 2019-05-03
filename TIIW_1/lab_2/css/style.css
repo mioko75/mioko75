@@ -1,0 +1,137 @@
+/* Laboratoire 2 Parallax */
+/* Programmé par Sophie B */
+/* 2 mai 2019 */
+
+
+html,body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.h-15
+{
+    height: 15%;
+}
+
+.h-85
+{
+    height:85%;
+}
+
+.parallax1
+{
+    /* l'image du parallax */
+    background-image: url("../images/LFETM1.jpg");
+
+    /* la hauteur du parallax */
+    height: 100%;
+
+    /* création de l'effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2
+{
+    /* l'image du parallax */
+    background-image: url("../images/LFETM2.jpg");
+
+    /* la hauteur du parallax */
+    height: 900px;
+
+    /* création de l'effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxfoulard
+{
+    /* l'image du parallax */
+    background-image: url("../images/LFETM3.jpg");
+
+    /* la hauteur du parallax */
+    height: 700px;
+
+    /* création de l'effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gris
+{
+    height: 100%;
+    background-color: rgba(97, 97, 97, .4);
+}
+
+.orange
+{
+    height: 100%;
+    background-color: rgba(242, 121, 29, .7);
+}
+
+.orangeO
+{
+    height: 100%;
+    background-color: rgb(242, 121, 29);
+}
+
+.vert
+{
+    height: 100%;
+    background-color: rgb(134, 145, 37);
+}
+
+.bleu
+{
+    height: 100%;
+    background-color: rgb(113, 147, 143);
+}
+
+h2
+{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+h3
+{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+p
+{
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+li
+{
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.centre
+{
+    text-align: center;
+}
+
+.Tvert
+{
+    color: rgb(134, 145, 37);
+}
+
+.Tnoir
+{
+    color: black;
+}
