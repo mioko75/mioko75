@@ -44,34 +44,10 @@ html,body
     height:98%;
 }
 
-.BGbeige
-{
-    height: 100%;
-    background-color: rgb(221, 194, 167);
-}
-
 .BGblanc
 {
     height: 100%;
     background-color: rgba(255, 255, 255, .6);
-}
-
-.BGbleu
-{
-    height: 100%;
-    background-color: rgb(122, 166, 229);
-}
-
-.BGbleupale
-{
-    height: 100%;
-    background-color: #cbd4e0;
-}
-
-.BGbrun
-{
-    height: 100%;
-    background-color: #856249;
 }
 
 .BGgris
@@ -234,7 +210,7 @@ h3
 {
     font-family: "Permanent Marker", sans-serif;
     color: #1d2124;
-    font-size: 38px;
+    font-size: 35px;
     padding: 5px 0;
 }
 
