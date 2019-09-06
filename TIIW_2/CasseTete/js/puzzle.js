@@ -20,8 +20,8 @@ $( ".img-fluid" ).click(function() {
     else {
         var src2 = this.src;
         var id2 = this.id;
-        $(src2).attr(src1);
-        $(this).toggle();
+        $('#' + id1).attr("src", "src1");
+     //   $(this).show();
         premierClic = 1;
     }
 });
