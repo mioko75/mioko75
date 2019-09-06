@@ -26,7 +26,8 @@ $( ".img-fluid" ).click(function() {
         src2 = this.src;
         id2 = this.id;
         $('#' + id1).attr("src", src2 );
-        $(this).show();
+        $('#' + id1).show();
+        $(this).css({display: "none"});
         premierClic = 1;
     }
 });
@@ -64,6 +65,7 @@ $( "#reponse" ).click(function() {
 
 // victoire
 /**
+
 if ($('#image1').attr('src') === ("images/image1.jpg")) ; {
     if ($('#image2').attr('src') === ("images/image2.jpg")) ; {
         if ($('#image3').attr('src') === ("images/image3.jpg")) ; {
