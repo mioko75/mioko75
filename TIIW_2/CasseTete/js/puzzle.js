@@ -9,19 +9,24 @@ $('img').hover(function () {
     $('img').css("cursor","pointer");
 })
 
+var id1;
+var src1;
+var id2;
+var src2;
+
 $( ".img-fluid" ).click(function() {
 
     if (premierClic === 1){
-        var src1 = this.src;
-        var id1 = this.id;
+        src1 = this.src;
+        id1 = this.id;
         $(this).css({display: "none"});
         premierClic = 2;
     }
     else {
-        var src2 = this.src;
-        var id2 = this.id;
-        $('#' + id1).attr("src", "src1");
-     //   $(this).show();
+        src2 = this.src;
+        id2 = this.id;
+        $('#' + id1).attr("src", src2 );
+        $(this).show();
         premierClic = 1;
     }
 });
