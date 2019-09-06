@@ -1,0 +1,511 @@
+/* Projet html */
+/* Programmé par Sophie B */
+/* 3 Juillet 2019 */
+
+
+html, body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.container-fluid
+{
+    padding:0;
+}
+
+.row
+{
+    margin: 0;
+}
+
+
+.h-10
+{
+    height: 10%;
+}
+.h-nav
+{
+    height: 40px;
+}
+.h-20
+{
+    height: 20%;
+}
+
+.h-60
+{
+    height: 60%;
+}
+
+.h-80
+{
+    height:80%;
+}
+
+.h-90
+{
+    height:90%;
+}
+
+.h-98
+{
+    height:98%;
+}
+
+.h-150
+{
+    height:150%;
+}
+
+.bg
+{
+    background-color: black;
+    margin: 0;
+}
+
+.bgfonceT
+{
+    background-color: rgba(61, 59, 76, .5);
+}
+
+.bgbleupaleO
+{
+    height: 140px;
+    background-image: url("../images/bg/bgfilet.png");
+    background-color: #53929b;
+}
+
+.bggrispaleO
+{
+    height: 100%;
+    background-color: #f6f1e9;
+}
+
+.bggrisfonceO
+{
+    height: 100%;
+    background-color: #3d3b4c;
+}
+
+.bgorangeO
+{
+    height: 100%;
+    background-color: #f39219;
+}
+
+.bgsaumonO
+{
+    height: 100%;
+    background-color: #ea5a25;
+}
+
+.bgmarineO
+{
+    height: 100%;
+    background-color: #232136;
+}
+
+.bgvertO
+{
+    height: 100%;
+    background-color: #8baa76;
+}
+
+hr
+{
+    max-width: 125px;
+    border-width: 4px;
+    border-color: #ea5e25;
+    margin-top: 20px;
+}
+
+.icone
+{
+    color: #ea5e25;
+}
+
+.parallaxPeche
+{
+    /* l'image du parallax */
+    background-image: url("../images/parallax/cannemouche-parallax.jpg");
+
+    /* la hauteur du parallax */
+    height: 700px;
+
+    /* création de l'effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxEquipements
+{
+    /* l'image du parallax */
+    background-image: url("../images/parallax/materiel-garbolino-parallax.jpg");
+
+    /* la hauteur du parallax */
+    height: 100%;
+
+    /* création de l'effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    font-family: Permanent Marker, sans-serif;
+    color: #ea5a25;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.h2Orange
+{
+    font-family: Satisfy, sans-serif;
+    font-size: 45px;
+    text-align: right;
+    color: #ea5a25;
+}
+
+.H4Card
+{
+    font-family: Satisfy, sans-serif;
+    color: #3d3b4c;
+    font-size: 50px;
+}
+
+h2
+{
+    font-family: Satisfy, sans-serif;
+    color: #1d2124;
+    font-size: 45px;
+    text-align: center;
+}
+
+.H2Card
+{
+    font-size: 40px;
+}
+
+h3
+{
+    font-family: "Permanent Marker", sans-serif;
+    color: #1d2124;
+    font-size: 35px;
+    padding: 5px 0;
+}
+
+h4
+{
+    font-family: Satisfy, sans-serif;
+    color: #1d2124;
+    font-size: 25px;
+}
+
+h5
+{
+    font-family: "Permanent Marker", sans-serif;
+    color: #ea5a25;
+    font-size: 30px;
+}
+
+p
+{
+    font-family: Satisfy, sans-serif;
+    font-size: 28px;
+    color: black;
+    padding: 5px;
+}
+
+.P1
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.P2
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.P2S
+{
+    font-family: Satisfy, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.PBGL
+{
+    font-family: Satisfy, sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.PBGR
+{
+    font-family: Satisfy, sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: right;
+    padding-right: 25px;
+    margin: 0;
+}
+
+.PTH
+{
+    font-family: Satisfy, sans-serif;
+    color: #1d2124;
+    font-size: 25px;
+}
+
+/*     ***     NAV BAR     ***   https://work.smarchal.com/twbscolor/4.0.0/css/2321363d3b4cf6f1e9f392190  */
+.navbar {
+    background-color: #232136;
+}
+.navbar .navbar-brand {
+    color: #f6f1e9;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #f39219;
+}
+.navbar .navbar-text {
+    color: #f6f1e9;
+}
+.navbar .navbar-text a {
+    color: #f39219;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #f39219;
+}
+.navbar .navbar-nav .nav-link {
+    color: #f6f1e9;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #f39219;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #f39219;
+    background-color: #3d3b4c;
+}
+.navbar .navbar-toggle {
+    border-color: #3d3b4c;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #3d3b4c;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #f6f1e9;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #f6f1e9;
+}
+.navbar .navbar-link {
+    color: #f6f1e9;
+}
+.navbar .navbar-link:hover {
+    color: #f39219;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f6f1e9;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39219;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39219;
+        background-color: #3d3b4c;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f6f1e9;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39219;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39219;
+        background-color: #3d3b4c;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f6f1e9;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39219;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39219;
+        background-color: #3d3b4c;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f6f1e9;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39219;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39219;
+        background-color: #3d3b4c;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #f6f1e9;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f39219;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f39219;
+    background-color: #3d3b4c;
+}
+
+/*     ***     MEDIA QUERIE     ***     */
+
+@media screen and (min-width: 400px) and (max-width: 769px)
+{
+    .parallaxPeche
+    {
+        background-image: url("../images/parallax/cannemouche-parallax-ipad.jpg");
+    }
+
+    .parallaxEquipements
+    {
+        background-image: url("../images/parallax/materiel-garbolino-ipad.jpg");
+    }
+
+    h1
+    {
+        font-family: Permanent Marker, sans-serif;
+        color: #ea5a25;
+        font-size: 33px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .h2Orange
+    {
+        font-size: 34px;
+    }
+    .PTH
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 399px)
+{
+    .parallaxPeche
+    {
+        background-image: url("../images/parallax/cannemouche-parallax-iphone5.jpg");
+    }
+
+    .parallaxEquipements
+    {
+        background-image: url("../images/parallax/materiel-garbolino-iphone5.jpg");
+    }
+
+    .bgbleupaleO
+    {
+        height: 180px;
+    }
+
+    h1
+    {
+        font-size: 23px;
+        padding-top: 6px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .h2Orange
+    {
+        font-size: 25px;
+    }
+
+    h2
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h3
+    {
+        font-size: 25px;
+    }
+
+    p
+    {
+        font-size: 23px;
+    }
+
+    .P2
+    {
+        font-family: sans-serif;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+
+    .P2S
+    {
+        font-family: Satisfy, sans-serif;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    .PBGL
+    {
+        font-size: 32px;
+        padding-left: 0;
+    }
+    .PBGR
+    {
+        font-size: 33px;
+        padding-right: 0;
+    }
+
+}
+
+@media print {
+    #section2, #section3, #section4 {
+        display:none;
+    }
+}

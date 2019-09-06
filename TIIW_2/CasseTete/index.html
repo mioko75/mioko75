@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="casse-tête">
+    <meta name="author" content="Sophie Bergeron">
+    <link rel="icon" type="image/png" href="images/puzzle.png" />
+    <title>Casse-Tête</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Très important d'apporter notre css sous le bootstrap pour que notre css est priorité -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no"><!-- LIGNE LA PLUS IMPORTANTE AU MONDE -->
+
+</head>
+
+<body>
+
+
+<div class = "container-fluid">
+    <div class= "row bggrisfonceO">
+        <div class="col-12">
+            <h3 class="PBGL">Prends ça cool!!!</h3>
+            <button type="button" id="recommencer" class="btn btn-light"><a href="index.html"></a>Recommencer</button>
+            <button type="button" id="reponse" class="btn btn-light">Tricher</button>
+        </div>
+    </div>
+    <section id="puzzle">
+    <div class="container-fluid">
+        <div class="row no-gutters" id="range1">
+            <div class="col-4"><img class="img-fluid" src="images/image7.jpg" alt="no1" title="7" id="image1"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image5.jpg" alt="no2" title="5" id="image2"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image3.jpg" alt="no3" title="3" id="image3"/></div>
+        </div>
+        <div class="row no-gutters" id="range2">
+            <div class="col-4"><img class="img-fluid" src="images/image2.jpg" alt="no4" title="2" id="image4"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image4.jpg" alt="no5" title="4" id="image5"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image9.jpg" alt="no6" title="9" id="image6"/></div>
+        </div>
+        <div class="row no-gutters" id="range3">
+            <div class="col-4"><img class="img-fluid" src="images/image8.jpg" alt="no7" title="8" id="image7"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image1.jpg" alt="no8" title="1" id="image8"/></div>
+            <div class="col-4"><img class="img-fluid" src="images/image6.jpg" alt="no9" title="6" id="image9"/></div>
+        </div>
+    </div>
+    </section>
+</div>
+
+
+
+<script src="js/jquery-3.4.1.js"></script><!-- JQuery toujours avant Bootstrap-->
+<script src="js/puzzle.js"></script><!-- js perso-->
+<script src=//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js/></script>
+<script src="js/bootstrap.js"></script> <!-- DOIT TOUJOURS ÊTRE À LA DERNIÈRE LIGNE DU CODE, JUSTE AVANT DE FERMER LE BODY -->
+</body>
+</html>
