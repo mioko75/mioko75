@@ -27,8 +27,8 @@ $( ".img-fluid" ).click(function() {
     else {
         src2 = this.src;  // enregistre le src de l'image du deuxieme clic
         id2 = this.id;  // enregistre le id de l'image du deuxieme clic
-        $('#' + id2).attr("src", src1 );  // transfert le le src de la deuxieme image sur la 1ere
         $('#' + id1).attr("src", src2 ); // transfert le le src de la premier image sur la 2e
+        $('#' + id2).attr("src", src1 );  // transfert le le src de la deuxieme image sur la 1ere
         $('#' + id1).show(); // Affiche l'image
         VerifierVictoire ();
         premierClic = 1;
@@ -39,7 +39,7 @@ $( ".img-fluid" ).click(function() {
 
 function VerifierVictoire(){
     var victoire = true;
-    var images = ["image1","image2"];
+    var images ;
     for (i = 1; i < 10; i++) {
 
         var check = $('#image'+i).attr('src').split('/').pop();
@@ -48,8 +48,8 @@ function VerifierVictoire(){
         }
     }
     if(victoire){
-        $('#puzzle').hide();
-        $('#bravo').show();
+        $('#puzzle').prepend("<p class='text-center' id='bravo'> Vous avez gagné <br> <img src=\"images/felicitations.jpg\" alt=\"felicitation\" title=\"Félicitation\" id=\"bravo\" class=\"m-5\"> </p>");
+        //$('#bravo').show();
     }
 }
 
@@ -67,7 +67,7 @@ $( "#recommencer" ).click(function() {
     $("#image7").attr("src", "images/image8.jpg");
     $("#image8").attr("src", "images/image1.jpg");
     $("#image9").attr("src", "images/image6.jpg");{
-        clearInterval(myVar);
+        $('bravo').remove();
     }
 
 });
@@ -84,13 +84,8 @@ $( "#reponse" ).click(function() {
     $("#image7").attr("src", "images/image7.jpg");
     $("#image8").attr("src", "images/image8.jpg");
     $("#image9").attr("src", "images/image9.jpg");{
-        myVar = setInterval(plusvictoire, 1000);
+       $('#puzzle').prepend("<p class='text-center' id='bravo'> Vous avez gagné <br> <img src=\"images/felicitations.jpg\" alt=\"felicitation\" title=\"Félicitation\" id=\"bravo\" class=\"m-5\"> </p>");
     }
-    function plusvictoire() {
-        $('#puzzle').hide();
-        $('#bravo').show();
-    }
-
 });
 
 
