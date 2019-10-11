@@ -1,0 +1,418 @@
+/* Projet Synthèse */
+/* Programmé par Sophie Bergeron */
+/* 24 Septembre 2019 */
+
+
+/*@font-face
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}*/
+
+
+html, body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.container-fluid
+{
+    padding:0;
+}
+
+.row
+{
+    margin: 0;
+}
+
+hr
+{
+    max-width: 10rem;
+    border-width: 0.2rem;
+    border-color: #FFFFFF;
+
+}
+
+.h-10
+{
+    height: 10%;
+}
+
+.h-20
+{
+    height: 20%;
+}
+
+.h-60
+{
+    height: 60%;
+}
+
+.h-80
+{
+    height:80%;
+}
+
+.h-90
+{
+    height:90%;
+}
+
+.h-95
+{
+    height:95%;
+}
+
+.h-98
+{
+    height:98%;
+}
+
+
+.bgWhite
+{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.bgBlack
+{
+    background-color: #000000;
+    margin: 0;
+}
+
+.bgLigthBlack
+{
+    background-color: #2E2E2E;
+    margin: 0;
+}
+
+.bgDarkGray
+{
+    background-color: #4E4D4D;
+    margin: 0;
+}
+
+.bgGray
+{
+    background-color: #939499;
+    margin: 0;
+}
+
+.bgLigthGray
+{
+    background-color: #EEEDED;
+    margin: 0;
+}
+
+.bgChery
+{
+    background-color: #CB1333;
+    margin: 0;
+}
+
+.bgYellow
+{
+    background-color: #F39723;
+    margin: 0;
+}
+
+.bgTurquoise
+{
+    background-color: #1AADBD;
+    margin: 0;
+}
+
+.bgBlue
+{
+    background-color: #006FAA;
+    margin: 0;
+}
+
+.bgGreen
+{
+    background-color: #67A480;
+    margin: 0;
+}
+
+h1
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size:2.25rem;
+    text-align: center;
+    color: #CB1333;
+}
+
+h2
+{
+    font-family: "Open Sans Condensed" , sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+h3
+{
+    font-family: "Open Sans Condensed" , sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+}
+
+h4
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+    margin: 0;
+}
+
+p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 1.63rem;
+    text-align: center;
+    color: #006FAA;
+}
+
+.utilitaire
+{
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.langue
+{
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.pBoxInfo
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 1.87rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pCard-box
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.icone
+{
+    color: #FFFFFF;
+}
+
+.courriel
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #006FAA;
+}
+
+.btn
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    border-width: 0.1rem;
+}
+
+/* *** FONT FOOTER ***/
+
+.h4Footer
+{
+    color: #FFFFFF;
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-size: 1.37rem;
+    margin: 0;
+}
+
+.pFooter
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+}
+
+.pDroit
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    text-align: center;
+    margin: 0;
+}
+
+/*  NAVBAR https://work.smarchal.com/twbscolor/4.0.0/scss/4e4d4d2e2e2efffffff397231  */
+
+.navbar {
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    background-color: #4e4d4d;
+
+}
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #f39723;
+}
+.navbar .navbar-text {
+    color: #ffffff;
+}
+.navbar .navbar-text a {
+    color: #f39723;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #f39723;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #f39723;
+}
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #4e4d4d;
+    border-color: #2e2e2e;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #f39723;
+    background-color: #2e2e2e;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #2e2e2e;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #f39723;
+    background-color: #2e2e2e;
+}
+.navbar .navbar-toggle {
+    border-color: #2e2e2e;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #2e2e2e;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ffffff;
+}
+.navbar .navbar-link {
+    color: #ffffff;
+}
+.navbar .navbar-link:hover {
+    color: #f39723;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39723;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39723;
+        background-color: #2e2e2e;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39723;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39723;
+        background-color: #2e2e2e;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39723;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39723;
+        background-color: #2e2e2e;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f39723;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f39723;
+        background-color: #2e2e2e;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f39723;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f39723;
+    background-color: #2e2e2e;
+}
+.navbar-brand {
+    width: 5rem;
+}
