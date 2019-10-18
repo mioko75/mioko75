@@ -2,182 +2,134 @@
 /* Programmé par Sophie Bergeron */
 /* 24 Septembre 2019 */
 
-
-/*@font-face
-{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
-}*/
-
-
 html, body
 {
     margin: 0;
     height: 100%;
 }
-
 .container-fluid
 {
     padding:0;
 }
-
 .row
 {
     margin: 0;
 }
-
 hr
 {
-    max-width: 10rem;
-    border-width: 0.2rem;
+    max-width: 30rem;
+    border-width: 0.1rem;
     border-color: #FFFFFF;
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-
+.border
+{
+    color: #EEEDED;
+}
+.icone
+{
+    color: #FFFFFF;
+}
+.margeEntete
+{
+    margin-top: 8.6rem;
+}
+.margeUtilitaire
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.margeNav
+{
+    margin-top: 2rem;
+}
+/* *** HAUTEUR *** */
 .h-10
 {
     height: 10%;
 }
-
 .h-20
 {
     height: 20%;
 }
-
 .h-60
 {
     height: 60%;
 }
-
 .h-80
 {
     height:80%;
 }
-
 .h-90
 {
     height:90%;
 }
-
 .h-95
 {
     height:95%;
 }
-
 .h-98
 {
     height:98%;
 }
-
-
+/* *** BACKGROUND *** */
 .bgWhite
 {
     background-color: #FFFFFF;
     margin: 0;
 }
-
 .bgBlack
 {
     background-color: #000000;
     margin: 0;
 }
-
 .bgLigthBlack
 {
     background-color: #2E2E2E;
     margin: 0;
 }
-
 .bgDarkGray
 {
     background-color: #4E4D4D;
     margin: 0;
 }
-
 .bgGray
 {
     background-color: #939499;
     margin: 0;
 }
-
 .bgLigthGray
 {
     background-color: #EEEDED;
     margin: 0;
 }
-
 .bgChery
 {
     background-color: #CB1333;
     margin: 0;
 }
-
 .bgYellow
 {
     background-color: #F39723;
     margin: 0;
 }
-
 .bgTurquoise
 {
     background-color: #1AADBD;
     margin: 0;
 }
-
 .bgBlue
 {
     background-color: #006FAA;
     margin: 0;
 }
-
 .bgGreen
 {
     background-color: #67A480;
     margin: 0;
 }
-
-h1
-{
-    font-family: "Open Sans", sans-serif;
-    font-weight: bolder;
-    font-size:2.25rem;
-    text-align: center;
-    color: #CB1333;
-}
-
-h2
-{
-    font-family: "Open Sans Condensed" , sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 2rem;
-}
-
-h3
-{
-    font-family: "Open Sans Condensed" , sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 2.25rem;
-}
-
-h4
-{
-    font-family: "Open Sans Condensed", sans-serif;
-    color: #FFFFFF;
-    font-size: 1.875rem;
-    margin: 0;
-}
-
-p
-{
-    font-family: "Open Sans", sans-serif;
-    font-weight: bolder;
-    font-size: 1.63rem;
-    text-align: center;
-    color: #006FAA;
-}
-
+/*  ******  TYPOGRAPHIE  ******  */
 .utilitaire
 {
     font-family: "Open Sans SemiBold", sans-serif;
@@ -186,7 +138,6 @@ p
     color: #FFFFFF;
     margin: 0;
 }
-
 .langue
 {
     font-family: "OpenSansBold", sans-serif;
@@ -194,7 +145,70 @@ p
     color: #FFFFFF;
     margin: 0;
 }
-
+h1
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size:2.25rem;
+    text-align: center;
+    color: #CB1333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.gras
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size:2rem;
+    text-align: center;
+    color: #CB1333;
+}
+.h1Contact
+{
+    color: #FFFFFF;
+}
+h2
+{
+    font-family: "Open Sans Condensed" , sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+}
+.h2BoiteBlanche
+{
+    color: #2E2E2E;
+}
+h3
+{
+    font-family: "Open Sans Condensed" , sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+}
+.h3BoiteBlanche
+{
+    color: #2E2E2E;
+}
+h4
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin: 0;
+}
+.h4BoiteBlanche
+{
+    color: #2E2E2E;
+}
+p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 1.63rem;
+    text-align: center;
+    color: #006FAA;
+}
 .pBoxInfo
 {
     font-family: "Open Sans Condensed", sans-serif;
@@ -203,7 +217,13 @@ p
     text-align: center;
     color: #FFFFFF;
 }
-
+.pDure
+{
+    font-family: "Open Sans Condensed" , sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
 .pCard-box
 {
     font-family: "Open Sans", sans-serif;
@@ -211,12 +231,22 @@ p
     text-align: justify;
     color: #FFFFFF;
 }
-
-.icone
+.pBoiteBlanche
 {
-    color: #FFFFFF;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 1.87rem;
+    text-align: center;
+    color: #2e2e2e;
 }
-
+.pSecourisme
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size:1.8rem;
+    text-align: center;
+    color: #CB1333;
+}
 .courriel
 {
     font-family: "Open Sans", sans-serif;
@@ -225,13 +255,21 @@ p
     text-align: center;
     color: #006FAA;
 }
-
+li
+{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #FFFFFF;
+}
 .btn
 {
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     font-style: italic;
     border-width: 0.1rem;
+    margin: 0;
 }
 
 /* *** FONT FOOTER ***/
@@ -240,8 +278,24 @@ p
 {
     color: #FFFFFF;
     font-family: "Open Sans SemiBold", sans-serif;
-    font-size: 1.37rem;
-    margin: 0;
+    font-size: 1.15rem;
+    margin-left: 6rem;
+}
+.h4iFoot
+{
+    color: #FFFFFF;
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-size: 1.15rem;
+    margin-left: 6rem;
+    margin-bottom: 1.8rem;
+}
+
+.h4Vertical
+{
+    color: #FFFFFF;
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-size: 1.15rem;
+    writing-mode: vertical-lr;
 }
 
 .pFooter
@@ -251,7 +305,8 @@ p
     color: #FFFFFF;
     font-size: 1rem;
     text-align: left;
-    margin: 0;
+    margin-left: 6rem;
+    margin-bottom: 0;
 }
 
 .pDroit
@@ -267,12 +322,15 @@ p
 
 /*  NAVBAR https://work.smarchal.com/twbscolor/4.0.0/scss/4e4d4d2e2e2efffffff397231  */
 
-.navbar {
+.nav-item /* modification de police de la nav */
+{
     font-family: "Open Sans SemiBold", sans-serif;
     font-style: italic;
-    font-size: 1.2rem;
-    background-color: #4e4d4d;
+    font-size: 1.8rem;
+}
 
+.navbar {
+    background-color: #4e4d4d;
 }
 .navbar .navbar-brand {
     color: #ffffff;
@@ -302,7 +360,7 @@ p
 }
 .navbar .navbar-nav .dropdown-menu {
     background-color: #4e4d4d;
-    border-color: #2e2e2e;
+    border-color: #4e4d4d;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
     color: #ffffff;
@@ -314,7 +372,7 @@ p
     background-color: #2e2e2e;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-divider {
-    border-top-color: #2e2e2e;
+    border-top-color: #EEEDED;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -326,11 +384,11 @@ p
     background-color: #2e2e2e;
 }
 .navbar .navbar-toggle {
-    border-color: #2e2e2e;
+    border-color: #EEEDED;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-    background-color: #2e2e2e;
+    background-color: #EEEDED;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
     color: #ffffff;
@@ -372,6 +430,9 @@ p
         color: #f39723;
         background-color: #2e2e2e;
     }
+    .navbar {
+        font-size: .9rem; /* modification de taille police de la nav */
+    }
 }
 
 @media (max-width: 991px) {
@@ -385,6 +446,9 @@ p
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: #f39723;
         background-color: #2e2e2e;
+    }
+    .navbar {
+        font-size: 0.9rem; /* modification de taille police de la nav */
     }
 }
 
@@ -400,8 +464,10 @@ p
         color: #f39723;
         background-color: #2e2e2e;
     }
+    .nav-item {
+        font-size: 1.5rem; /* modification de taille police de la nav */
+    }
 }
-
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ffffff;
 }
@@ -415,4 +481,635 @@ p
 }
 .navbar-brand {
     width: 5rem;
+}
+
+/*  *** MEDIA QUERIES ** */
+@media screen and (min-width: 1425px) and (max-width: 1555px)
+{
+    h2, h3
+    {
+        font-size: 2rem;
+    }
+    h4
+    {
+        font-size: 1.64rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.52rem;
+    }
+    .pDure
+    {
+        font-size: 1.75rem;
+    }
+    .pSecourisme
+    {
+        font-size:1.6rem;
+    }
+    .pCard-box
+    {
+        font-size: 1.15rem;
+        margin-bottom: 0.8rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1.6rem;
+    }
+}
+@media screen and (min-width: 1315px) and (max-width: 1425px)
+{
+    h2, h3
+    {
+        font-size: 1.75rem;
+    }
+    h4
+    {
+        font-size: 1.44rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.35rem;
+    }
+    .courriel
+    {
+        font-size: 1.40rem;
+    }
+    .pDure
+    {
+        font-size: 1.5rem;
+    }
+    .pSecourisme
+    {
+        font-size:1.5rem;
+    }
+    .pCard-box
+    {
+        font-size: 1.09rem;
+        margin-bottom: 0.7rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1.5rem;
+    }
+}
+@media screen and (min-width: 1205px) and (max-width: 1315px)
+{
+    h2, h3
+    {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    h4
+    {
+        font-size: 1.44rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.22rem;
+        margin-bottom: 0.5rem;
+    }
+    .courriel
+    {
+        font-size: 1.28rem;
+    }
+    .pDure
+    {
+        font-size: 1.5rem;
+    }
+    .pSecourisme
+    {
+        font-size:1.4rem;
+    }
+    .pCard-box
+    {
+        font-size: 1.09rem;
+        margin-bottom: 0.7rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1.4rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.15rem;
+        margin-left: 4rem;
+    }
+    .pFooter
+    {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 4rem;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1055px) and (max-width: 1204px)
+{
+    h2, h3
+    {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    h4
+    {
+        font-size: 1.44rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.21rem;
+        margin-bottom: 0.5rem;
+    }
+    .courriel
+    {
+        font-size: 1.28rem;
+    }
+    .pDure
+    {
+        font-size: 1.5rem;
+    }
+    .pSecourisme
+    {
+        font-size:1.2rem;
+    }
+    .pCard-box
+    {
+        font-size: 1.09rem;
+        margin-bottom: 0.7rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1.2rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.05rem;
+        margin-left: 3rem;
+    }
+    .pFooter
+    {
+        font-size: .9rem;
+        text-align: left;
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+    hr
+    {
+        max-width: 23rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (min-width: 864px) and (max-width: 1054px)
+{
+    h2, h3
+    {
+        font-size: 1.58rem;
+        margin-bottom: 0.5rem;
+        padding-top: 1rem;
+    }
+    h4
+    {
+        font-size: 1.36rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.14rem;
+        margin-bottom: 0.5rem;
+    }
+    .courriel
+    {
+        font-size: 1.28rem;
+    }
+    h1
+    {
+        font-size:2rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1.44rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    .pDure
+    {
+        font-size: 1.4rem;
+    }
+    .pSecourisme
+    {
+        font-size:1.15rem;
+    }
+    .pCard-box
+    {
+        font-size: 1.09rem;
+        margin-bottom: 0.7rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1.15rem;
+    }
+    .h4Footer
+    {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .pFooter
+    {
+        font-size: .9rem;
+        text-align: left;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+    hr
+    {
+        max-width: 22rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 863px)
+{
+    h2, h3
+    {
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+        padding-top: 0.75rem;
+    }
+    h4
+    {
+        font-size: 1.24rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1rem;
+        margin-bottom: .06rem;
+    }
+    .courriel
+    {
+        font-size: 1.17rem;
+    }
+    h1
+    {
+        font-size:1.80rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1.30rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    .pDure
+    {
+        font-size: 1.2rem;
+    }
+    .pSecourisme
+    {
+        font-size:1rem;
+    }
+    .pCard-box
+    {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:1rem;
+    }
+    .h4Footer
+    {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .pFooter
+    {
+        font-size: .9rem;
+        text-align: left;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+    hr
+    {
+        max-width: 20rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+    }
+}
+@media screen and (min-width: 621px) and (max-width: 769px)
+{
+    h2, h3
+    {
+        font-size: 1.2rem;
+        margin-bottom: 0.3rem;
+        padding-top: 0.5rem;
+    }
+    h4
+    {
+        font-size: 0.85rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+
+    }
+    .courriel
+    {
+        font-size: 1.05rem;
+    }
+    .pDure
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+    h1
+    {
+        font-size:1.50rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1.19rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    .pSecourisme
+    {
+        font-size:0.9rem;
+    }
+    .pCard-box
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:0.9rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.15rem;
+        margin-left: 3rem;
+    }
+    .pFooter
+    {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+    hr
+    {
+        max-width: 17rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 620px)
+{
+    .nav-item /* modification de police de la nav */
+    {
+        font-size: 1.2rem;
+    }
+    h2, h3
+    {
+        font-size: 1.1rem;
+        margin-bottom: 0.2rem;
+        padding-top: 0.4rem;
+    }
+    h4
+    {
+        font-size: 0.85rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+    .pDure
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+    h1
+    {
+        font-size:1.40rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1.08rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    .pSecourisme
+    {
+        font-size:0.8rem;
+    }
+    .pCard-box
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:0.8rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.15rem;
+        margin-left: 2rem;
+    }
+    .pFooter
+    {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 2rem;
+        margin-bottom: 0;
+    }
+    hr
+    {
+        max-width: 17rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+    }
+}
+@media screen and (min-width: 392px) and (max-width: 575px)
+{
+    h2, h3
+    {
+        font-size: 1.2rem;
+        padding-top: 0.7rem;
+    }
+    h4
+    {
+        font-size: 0.98rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.1rem;
+        margin-bottom: .2rem;
+    }
+    .pDure
+    {
+        font-size: 1rem;
+    }
+    h1
+    {
+        font-size:1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1.08rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    .pSecourisme
+    {
+        font-size:0.8rem;
+    }
+    .pCard-box
+    {
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:0.8rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.15rem;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .pFooter
+    {
+        font-size: 1rem;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .h4iFoot
+    {
+        color: #FFFFFF;
+        font-family: "Open Sans SemiBold", sans-serif;
+        font-size: 1.15rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    hr
+    {
+        max-width: 20rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+    }
+}
+@media screen and (max-width: 391px)
+{
+    h1
+    {
+        font-size:1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    p
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        text-align: center;
+        color: #006FAA;
+    }
+    h2, h3
+    {
+        font-size: 1.2rem;
+        padding-top: 0.7rem;
+    }
+    h4
+    {
+        font-size: 0.98rem;
+    }
+    .pBoxInfo, .pBoiteBlanche
+    {
+        font-size: 1.1rem;
+        margin-bottom: .2rem;
+    }
+    .pDure
+    {
+        font-size: 1rem;
+    }
+    .pSecourisme
+    {
+        font-size:0.8rem;
+    }
+    .pCard-box
+    {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+    .gras
+    {
+        font-weight: bold;
+        font-size:0.8rem;
+    }
+    .h4Footer
+    {
+        font-size: 1.15rem;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0.3rem;
+    }
+    .pFooter
+    {
+        font-size: 1rem;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .h4iFoot
+    {
+        color: #FFFFFF;
+        font-family: "Open Sans SemiBold", sans-serif;
+        font-size: 1.15rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    hr
+    {
+        max-width: 20rem;
+        border-width: 0.1rem;
+        border-color: #FFFFFF;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+    }
 }

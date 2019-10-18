@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-ca">
 <head>
-
     <meta charset="UTF-8">
     <meta name="description" content="cours de natation">
     <meta name="author" content="Sophie Bergeron">
@@ -10,151 +9,119 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/79506b355b.js" crossorigin="anonymous"></script><!-- NOUVEAU SCRIPT DE FONTAWESOME -->
-    <link rel="stylesheet" href="css/style.css"><!-- Très important d'apporter notre css sous le bootstrap pour que notre css est priorité -->
+    <link rel="stylesheet" href="css/animate.css"><!--importation du script de wowjs-->
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css"><!-- CSShake -->
     <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no"><!-- LIGNE LA PLUS IMPORTANTE AU MONDE -->
-
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="css/style.css"><!-- Très important d'apporter notre css sous le bootstrap pour que notre css est priorité -->
 </head>
-
 <body>
-<div>
 
-</div>
 <header>
-    <div class="container-fluid">
-        <div class="row bgBlack">
-            <div class="col-2">
-                <p class="utilitaire"><i class="fas fa-phone-alt icone mx-3"></i>819.775.3551</p>
+    <div class="container-fluid bgBlack fixed-top">
+        <div class="row py-1 margeUtilitaire">
+            <div class="col-5 d-xs-block d-sm-block d-md-none">
+                <p class="utilitaire text-left"><i class="fas fa-phone-alt icone mx-3"></i><i class="far fa-envelope mx-3"></i></p>
             </div>
-            <div class="col-3">
-                <p class="utilitaire"><i class="far fa-envelope mx-3"></i>info@moleculesenaction.ca</p>
+            <div class="col-sm-8 d-none d-sm-none d-md-block">
+                <p class="utilitaire text-left"><i class="fas fa-phone-alt icone mx-3"></i> 819.775.3551 <i class="far fa-envelope mx-3"></i>info@moleculesenaction.ca</p>
             </div>
-            <div class="col-2 offset-5">
-                <p class="langue">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icone "></i></a>
-                <a  href="https://twitter.com/?lang=fr"><i class="fab fa-twitter-square icone mx-3"></i></a>
-                <a  href="https://www.instagram.com/?hl=fr-ca"><i class="fab fa-instagram icone "></i></a>
-                <a  href="https://www.instagram.com/?hl=fr-ca"><i class="fas fa-shopping-cart icone mx-3"></i></a>
-                EN</p>
+            <div class="col-7 d-xs-block d-sm-block d-md-none">
+                <p class="langue text-right">
+                    <a  href="#"><i class="fas fa-shopping-cart icone mx-3"></i></a>
+                    EN</p>
+            </div>
+            <div class="col-sm-4 d-none d-sm-none d-md-block">
+                <p class="langue text-right mr-2">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icone "></i></a>
+                    <a  href="https://twitter.com/?lang=fr"><i class="fab fa-twitter-square icone mx-3"></i></a>
+                    <a  href="https://www.instagram.com/?hl=fr-ca"><i class="fab fa-instagram icone "></i></a>
+                    <a  href="#"><i class="fas fa-shopping-cart icone mx-3"></i></a>
+                    EN</p>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top margeNav">
+        <div class="col-4 d-xs-block d-sm-block d-md-block d-lg-none text-center">
+            <a class="navbar-brand" href="#"><img src="images/LogoA.png" class="img-fluid" alt="logo du site" title="Molécules en action"></a> <!--   Logo   -->
+        </div>
         <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="navbar-nav">
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Natation
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Préscolaire</a>
-                        <a class="dropdown-item" href="#">Junior</a>
-                        <a class="dropdown-item" href="#">Cours Privé</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon icone"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav mt-auto">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Natation</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Préscolaire</a>
+                            <a class="dropdown-item" href="#">Junior</a>
+                            <a class="dropdown-item" href="#">Cours Privé</a>
+                        </div>
                     </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        AquaForme
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                        <a class="dropdown-item" href="#">AquaForme Aérobique</a>
-                        <a class="dropdown-item" href="#">AquaForme Spécialisée</a>
-                        <a class="dropdown-item" href="#">AquaMaman</a>
-                        <a class="dropdown-item" href="#">AquaPoussette</a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AquaForme</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                            <a class="dropdown-item" href="#">AquaForme Aérobique</a>
+                            <a class="dropdown-item" href="#">AquaForme Spécialisée</a>
+                            <a class="dropdown-item" href="#">AquaMaman</a>
+                            <a class="dropdown-item" href="#">AquaPoussette</a>
+                        </div>
                     </div>
-                </div>
-                <a class="nav-item nav-link active" href="#">AquaFête<span class="sr-only">(current)</span></a>
-                <a class="navbar-brand" href="#"><img src="images/LogoA.png" class="img-fluid" alt="logo du site" title="Molécules en action"></a>
-                <a class="nav-item nav-link active" href="#">Secourisme</a>
-                <a class="nav-item nav-link active" href="#">Inscription<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="#">Horaire<span class="sr-only">(current)</span></a>
-            </div>
-        </div>
-        </div>
-
-    </nav>
-
- <!--
-    <nav class="navbar navbar-expand-lg">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Natation
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                    <a class="dropdown-item" href="#">Préscolaire</a>
-                    <a class="dropdown-item" href="#">Junior</a>
-                    <a class="dropdown-item" href="#">Cours Privé</a>
+                    <a class="nav-item nav-link" href="#">AquaFête<span class="sr-only">(current)</span></a>
+                    <a class="navbar-brand" href="#"><img src="images/LogoA.png" class="img-fluid" alt="logo du site" title="Molécules en action"></a> <!--   Logo   -->
+                    <a class="nav-item nav-link" href="#">Secourisme</a>
+                    <a class="nav-item nav-link" href="#">Inscription<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Horaire<span class="sr-only">(current)</span></a>
                 </div>
             </div>
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Aquaforme
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                    <a class="dropdown-item" href="#">AquaForme Aérobique</a>
-                    <a class="dropdown-item" href="#">AquaForme spécialisé</a>
-                    <a class="dropdown-item" href="#">AquaMaman</a>
-                    <a class="dropdown-item" href="#">AquaForme avec bébé</a>
-                </div>
-            </div>
-            <a class="nav-item nav-link active" href="#">AquaFête</a>
-            <a class="navbar-brand" href="#"><img src="images/LogoA.png" alt="logo du site" title="Molécules en action"></a>
-            <a class="nav-item nav-link active" href="#">Secourisme</a>
-            <a class="nav-item nav-link active" href="#">Horaire</a>
-            <a class="nav-item nav-link active" href="#">Inscription</a>
         </div>
     </nav>
--->
 </header>
 
 <!--   Image Entête   -->
 <section id="enteteaccueil">
-    <div class="container-fluid">
+    <div class="container-fluid margeEntete">
         <div class="row h-100">
-                <img src="images/istockphoto-625735914-1920x445.jpg" alt="image natation accueil" title="natation molécules en actions" class="img-fluid">
+            <img src="images/istockphoto-625735914-1920x445.jpg" alt="image natation accueil" title="natation molécules en actions" class="img-fluid">
         </div>
-        <div class="row h-50">
+        <div class="row">
             <div class="container-fluid p-4">
-                <h1>FORME PHYSIQUE, SANTÉ ET PLAISIRS GARANTI</h1>
-                <p>Notre objectif principal chez Molécules en actions est d'enseigner la natation dans le plaisirs, quelque soit l'âge ou le niveau. Chez nous nager rime avec santé.
+                <h1 class="wow slideInLeft" data-wow-duration="1s">FORME PHYSIQUE, SANTÉ ET PLAISIRS GARANTI</h1>
+                <p class="wow slideInRight" data-wow-duration="3s">Notre objectif principal chez Molécules en actions est d'enseigner la natation dans le plaisirs, quelque soit l'âge ou le niveau. Chez nous nager rime avec santé.
                     Sylvie Massé, spécialisée en activité physique, depuis plus de 25 ans, enseigne la natation à tous les niveaux.  Vous fait bouger avec ou sans bébé dans la bonne humeur.</p>
             </div>
         </div>
     </div>
 </section>
 
-
 <!--   info   -->
 <section id="info">
     <div class="container-fluid">
-        <div class="row ">
-            <div class="col-xl-6 col-12 text-center bgGreen py-5">
-                <h2>SESSION D'AUTOMNE</h2>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 text-center bgGreen py-5">
+                <h3 class="TBoiteBlanche">SESSION D'AUTOMNE</h3>
                 <hr>
                 <p class="pBoxInfo">20 SEPTEMBRE AU 17 NOVEMBRE 2019</p>
                 <p class="pBoxInfo">CONGÉ: 11 - 12 - 13 OCTOBRE 2019</p>
-                <h3>SESSION INTENSIVE</h3>
+                <h4>SESSION INTENSIVE</h4>
                 <p class="pBoxInfo">DATE À VENIR</p>
                 <div class="text-center">
                     <button type="button" class="btn btn-outline-light mb-3">INSCRIPTION</button>
                 </div>
             </div>
-            <div class="col-xl-6 col-12 text-center bgBlue py-5">
-                <h2>SOYEZ LES PREMIERS INFORMÉS</h2>
+            <div class="col-sm-6 col-xs-12 text-center bgBlue py-5">
+                <h3>SOYEZ LES PREMIERS INFORMÉS</h3>
                 <hr>
                 <p class="pBoxInfo">INSCRIVEZ-VOUS À NOTRE INFOLETTRE POUR</p>
                 <p class="pBoxInfo">ÊTRE LES PREMIERS À RECEVOIR LA PROGRAMMATION</p>
-                <div class="row mt-5 mb-4">
-                    <div class="col-xl-6 offset-xl-3 mb-3">
+                <div class="row mt-4 mb-4">
+                    <div class="col-xl-6 offset-xl-3 col-sm-8 offset-sm-2">
                         <p class="bgWhite courriel">COURRIEL</p>
                     </div>
                 </div>
@@ -173,7 +140,7 @@
             <div class="row">
             </div>
             <div class="row p-2">
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgBlue">
                         <img class="card-img-top" src="images/Junior/istockphoto-473428034-388x245.jpg" alt="Madagascar" title="Madagascar">
                         <div class="card-body">
@@ -186,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgDarkGray">
                         <img class="card-img-top" src="images/Aquaforme/istockphoto-148233451-388x246.jpg" alt="Aquaforme" title="AquaForme Aérobique">
                         <div class="card-body">
@@ -199,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgYellow">
                         <img class="card-img-top" src="images/Prenataux/istockphoto-475308284-388x246.jpg" alt="AquaMaman" title="AquaForme Prénatal">
                         <div class="card-body">
@@ -212,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgDarkGray">
                         <img class="card-img-top" src="images/Aquafete/istockphoto-1095690310-388x246.jpg" alt="AquaFête" title="AquaFête">
                         <div class="card-body">
@@ -224,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgChery h-95">
                         <img class="card-img-top" src="images/Rcr/istockphoto-929178778-388x246.jpg" alt="Secourisme" title="Secourisme RCR">
                         <div class="card-body">
@@ -236,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="card my-3 bgGreen">
                         <img class="card-img-top" src="images/Massage/istockphoto-952705806-388x246.jpg" alt="Massage" title="Massage">
                         <div class="card-body">
@@ -252,17 +219,18 @@
         </div>
     </div>
 </section>
+
 <!--   info bas de l'accueil  -->
 <section id="infobasaccueil">
-    <div class="container-fluid h-100">
+    <div class="container-fluid h-100 bgYellow">
         <div class="row align-items-center h-100">
-            <div class="col-xl-6 col-12 text-center bgYellow py-5 h-100">
+            <div class="col-sm-6 col-xs-12 text-center bgYellow h-100">
                 <div class="row align-items-center h-100">
-                    <div class="col-xl-4 offset-xl-1">
+                    <div class="col-xl-5 col-lg-4 col-md-3 col-sm-0 d-none d-lg-block">
                         <img src="images/logo-petites-molecules.png" alt="" class="img-fluid ">
                     </div>
-                    <div class="col-xl-6">
-                        <h2>LES PETITES MOLÉCULES</h2>
+                    <div class="col-xl-7 col-lg-8 col-md-12">
+                        <h3>LES PETITES MOLÉCULES</h3>
                         <p class="pBoxInfo">CAMP D'IMMERSION</p>
                         <p class="pBoxInfo">LANGUE SECONDE</p>
                         <hr>
@@ -273,10 +241,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-12 text-center bgDarkGray py-4">
+            <div class="col-sm-6 col-xs-12 text-center bgDarkGray">
                 <div class="row align-items-center h-100">
-                    <div class="col-xl-6 offset-xl-1">
-                        <h2>OFFRE D'EMPLOI</h2>
+                    <div class="col-xl-7 col-lg-8 col-md-12">
+                        <h3>OFFRE D'EMPLOI</h3>
                         <p class="pBoxInfo">TU AS LE GOÛT DE RELEVER DE</p>
                         <p class="pBoxInfo">NOUVEAUX DÉFIS?</p>
                         <hr>
@@ -285,7 +253,7 @@
                             <button type="button" class="btn btn-outline-light mb-3">CONSULTER</button>
                         </div>
                     </div>
-                    <div class="col-4 offset-xl-1">
+                    <div class="col-xl-5 col-lg-4 col-md-3 col-sm-0 d-none d-lg-block">
                         <img src="images/Emploi/istockphoto-700764556-1024x1024detoure.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -295,34 +263,36 @@
 </section>
 <footer class="bgLigthBlack">
     <div class="container-fluid">
-        <div class="row py-3 align-items-center h-100">
-            <div class="col-xl-3 col-md-6 col-12 my2 text-center">
-                <img src="images/LogoA.png" alt="Logo Molécules en action" title="Logo Molécules en action" class="text-center">
+        <div class="row py-3 align-items-center ">
+            <div class="col-xl-2 col-lg-2 col-md-2 d-none d-md-block my-2 text-center">
+                <img src="images/LogoA.png" alt="Logo Molécules en action" title="Logo Molécules en action" class="img-fluid">
             </div>
-            <div class="col-xl-3 col-md-6 col-12 border-right align-items-center h-100">
-                <h4 class="h4Footer">Coordonnées</h4>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 border-right align-items-center">
+                <h4 class="h4Footer">Molécules en actions</h4>
                 <p class="pFooter"><i class="fas fa-phone-alt icone mr-2"></i>819.775.3551</p>
                 <p class="pFooter"><i class="far fa-envelope icone mr-2"></i>info@cmolecculesenaction.ca</p>
                 <p class="pFooter">34, rue St-Dominique</p>
                 <p class="pFooter">Gatineau, Québec</p>
                 <p class="pFooter">J9A 1A2</p>
             </div>
-            <div class="col-xl-3 col-md-6 col-12 footer">
-                <div class="row align-items-center h-100">
-                    <div class="col-xl-4 offset-xl-4">
-                        <h4 class="h4Footer">Accueil</h4>
-                        <h4 class="h4Footer">Contact</h4>
-                        <h4 class="h4Footer">Natation</h4>
-                        <h4 class="h4Footer">Aquaforme</h4>
-                        <h4 class="h4Footer">Règlement</h4>
-                    </div>
-                </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-none d-sm-block my-2">
+                <h4 class="h4Footer">Accueil</h4>
+                <h4 class="h4Footer">Contact</h4>
+                <h4 class="h4Footer">Natation</h4>
+                <h4 class="h4Footer">Aquaforme</h4>
+                <h4 class="h4Footer">Règlement</h4>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-                <div class="row">
-                    <div class="col-xl-6 offset-xl-3 text-center">
-                        <h4 class="h4Footer mb-4">Suivez-nous</h4>
-                        <i class="fab fa-twitter fa-2x icone"></i><i class="fab fa-facebook-square fa-2x icone mx-2"></i> <i class="fab fa-instagram insta fa-2x icone">  </i>
+            <div class="col-xl-3 col-lg-3 col-md-3 d-sm-none d-md-block text-center">
+                <h4 class="h4iFoot ml-0">Suivez-nous</h4>
+                <i class="fab fa-twitter fa-2x icone"></i><i class="fab fa-facebook-square fa-2x icone mx-2"></i> <i class="fab fa-instagram insta fa-2x icone">  </i>
+            </div>
+            <div class="col-sm-2">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 d-none d-sm-block d-md-none">
+                        <i class="fab fa-twitter fa-2x icone"></i><br><i class="fab fa-facebook-square fa-2x icone my-2 "></i><br><i class="fab fa-instagram insta fa-2x icone"></i>
+                    </div>
+                    <div class="col-sm-6 d-none d-sm-block d-md-none flex-box align-items-center">
+                        <h4 class="h4Vertical">Suivez-nous</h4>
                     </div>
                 </div>
             </div>
@@ -338,8 +308,6 @@
         </div>
     </div>
 </footer>
-
-
 
 <script src="js/jquery-3.4.1.js"></script><!-- JQuery toujours avant Bootstrap-->
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js/></script><!-- Ici on amène le script de la navbar -->
