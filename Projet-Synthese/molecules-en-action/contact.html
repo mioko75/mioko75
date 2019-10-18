@@ -23,24 +23,34 @@
 <body>
 
 <header>
-    <div class="container-fluid">
-        <div class="row bgBlack py-1">
-            <div class="col-xl-6">
+    <div class="container-fluid bgBlack fixed-top">
+        <div class="row py-1 margeUtilitaire">
+            <div class="col-5 d-xs-block d-sm-block d-md-none">
+                <p class="utilitaire text-left"><i class="fas fa-phone-alt icone mx-3"></i><i class="far fa-envelope mx-3"></i></p>
+            </div>
+            <div class="col-sm-8 d-none d-sm-none d-md-block">
                 <p class="utilitaire text-left"><i class="fas fa-phone-alt icone mx-3"></i> 819.775.3551 <i class="far fa-envelope mx-3"></i>info@moleculesenaction.ca</p>
             </div>
-            <div class="col-xl-6">
+            <div class="col-7 d-xs-block d-sm-block d-md-none">
+                <p class="langue text-right">
+                    <a  href="#"><i class="fas fa-shopping-cart icone mx-3"></i></a>
+                    EN</p>
+            </div>
+            <div class="col-sm-4 d-none d-sm-none d-md-block">
                 <p class="langue text-right mr-2">
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icone "></i></a>
                     <a  href="https://twitter.com/?lang=fr"><i class="fab fa-twitter-square icone mx-3"></i></a>
                     <a  href="https://www.instagram.com/?hl=fr-ca"><i class="fab fa-instagram icone "></i></a>
-                    <a  href="https://www.instagram.com/?hl=fr-ca"><i class="fas fa-shopping-cart icone mx-3"></i></a>
+                    <a  href="#"><i class="fas fa-shopping-cart icone mx-3"></i></a>
                     EN</p>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top margeNav">
+        <div class="col-4 d-xs-block d-sm-block d-md-block d-lg-none text-center">
             <a class="navbar-brand" href="#"><img src="images/LogoA.png" class="img-fluid" alt="logo du site" title="Molécules en action"></a> <!--   Logo   -->
+        </div>
+        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon icone"></span>
             </button>
@@ -64,6 +74,7 @@
                         </div>
                     </div>
                     <a class="nav-item nav-link" href="#">AquaFête<span class="sr-only">(current)</span></a>
+                    <a class="navbar-brand d-none d-lg-block d-xl-block" href="#"><img src="images/LogoA.png" class="img-fluid" alt="logo du site" title="Molécules en action"></a> <!--   Logo   -->
                     <a class="nav-item nav-link" href="#">Secourisme</a>
                     <a class="nav-item nav-link" href="#">Inscription<span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">Horaire<span class="sr-only">(current)</span></a>
