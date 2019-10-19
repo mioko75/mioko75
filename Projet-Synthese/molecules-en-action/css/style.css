@@ -140,53 +140,63 @@ hr
 }
 .bgAccueil
 {
-    background-image: url("../images/istockphoto-625735914-1920x445.jpg");
+    background-image: url("../images/Accueil/istockphoto-625735914-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgPresco
 {
     background-image: url("../images/Prescolaire/istockphoto-1172435445-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgJunior
 {
     background-image: url("../images/Junior/istockphoto-473428034-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgPrivé
 {
     background-image: url("../images/Coursprivé/istockphoto-178369716-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgContact
 {
     background-image: url("../images/Contact/istockphoto-1146148499-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgErreur
 {
     background-image: url("../images/Erreur/istockphoto-943372530-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgAquafete
 {
     background-image: url("../images/Aquafete/istockphoto-147252748-1920x445.jpg");
-    height: 445px;
+    height: 27.8rem;
+    padding: 0;
 }
 .bgAquaforme
 {
     background-image: url("../images/Aquaforme/istockphoto-148233451-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgSecourisme
 {
     background-image: url("../images/Rcr/istockphoto-826951346-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 .bgReglement
 {
     background-image: url("../images/Reglements/istockphoto-1160900876-1920x445.jpg");
     height: 27.8rem;
+    padding: 0;
 }
 
 /*  ******  TYPOGRAPHIE  ******  */
@@ -776,52 +786,52 @@ li
     }
     .bgAccueil
     {
-        background-image: url("../images/istockphoto-625735914-1920x445.jpg");
+        background-image: url("../images/Accueil/istockphoto-625735914-1024x445.jpg");
         height: 27.8rem;
     }
     .bgPresco
     {
-        background-image: url("../images/Prescolaire/istockphoto-1172435445-1920x445.jpg");
+        background-image: url("../images/Prescolaire/istockphoto-1172435445-1024x445.jpg");
         height: 27.8rem;
     }
     .bgJunior
     {
-        background-image: url("../images/Junior/istockphoto-473428034-1920x445.jpg");
+        background-image: url("../images/Junior/istockphoto-473428034-1024x445.jpg");
         height: 27.8rem;
     }
     .bgPrivé
     {
-        background-image: url("../images/Coursprivé/istockphoto-178369716-1920x445.jpg");
+        background-image: url("../images/Coursprivé/istockphoto-178369716-1024x445.jpg");
         height: 27.8rem;
     }
     .bgContact
     {
-        background-image: url("../images/Contact/istockphoto-1146148499-1920x445.jpg");
+        background-image: url("../images/Contact/istockphoto-1146148499-1024x445.jpg");
         height: 27.8rem;
     }
     .bgErreur
     {
-        background-image: url("../images/Erreur/istockphoto-943372530-1920x445.jpg");
+        background-image: url("../images/Erreur/istockphoto-943372530-1024x445.jpg");
         height: 27.8rem;
     }
     .bgAquafete
     {
         background-image: url("../images/Aquafete/istockphoto-147252748-1024x445.jpg");
-        max-height: 27.8rem;
+        height: 27.8rem;
     }
     .bgAquaforme
     {
-        background-image: url("../images/Aquaforme/istockphoto-148233451-1920x445.jpg");
+        background-image: url("../images/Aquaforme/istockphoto-148233451-1024x445.jpg");
         height: 27.8rem;
     }
     .bgSecourisme
     {
-        background-image: url("../images/Rcr/istockphoto-826951346-1920x445.jpg");
+        background-image: url("../images/Rcr/istockphoto-826951346-1024x445.jpg");
         height: 27.8rem;
     }
     .bgReglement
     {
-        background-image: url("../images/Reglements/istockphoto-1160900876-1920x445.jpg");
+        background-image: url("../images/Reglements/istockphoto-1160900876-1024x445.jpg");
         height: 27.8rem;
     }
 }
@@ -988,52 +998,52 @@ li
     }
     .bgAccueil
     {
-        background-image: url("../images/istockphoto-625735914-1920x445.jpg");
+        background-image: url("../images/Accueil/istockphoto-625735914-768x445.jpg");
         height: 27.8rem;
     }
     .bgPresco
     {
-        background-image: url("../images/Prescolaire/istockphoto-1172435445-1920x445.jpg");
+        background-image: url("../images/Prescolaire/istockphoto-1172435445-768x445.jpg");
         height: 27.8rem;
     }
     .bgJunior
     {
-        background-image: url("../images/Junior/istockphoto-473428034-1920x445.jpg");
+        background-image: url("../images/Junior/istockphoto-473428034-768x445.jpg");
         height: 27.8rem;
     }
     .bgPrivé
     {
-        background-image: url("../images/Coursprivé/istockphoto-178369716-1920x445.jpg");
+        background-image: url("../images/Coursprivé/istockphoto-178369716-768x445.jpg");
         height: 27.8rem;
     }
     .bgContact
     {
-        background-image: url("../images/Contact/istockphoto-1146148499-1920x445.jpg");
+        background-image: url("../images/Contact/istockphoto-1146148499-768x445.jpg");
         height: 27.8rem;
     }
     .bgErreur
     {
-        background-image: url("../images/Erreur/istockphoto-943372530-1920x445.jpg");
+        background-image: url("../images/Erreur/istockphoto-943372530-768x445.jpg");
         height: 27.8rem;
     }
     .bgAquafete
     {
         background-image: url("../images/Aquafete/istockphoto-147252748-768x445.jpg");
-        max-height: 27.8rem;
+        height: 27.8rem;
     }
     .bgAquaforme
     {
-        background-image: url("../images/Aquaforme/istockphoto-148233451-1920x445.jpg");
+        background-image: url("../images/Aquaforme/istockphoto-148233451-768x445.jpg");
         height: 27.8rem;
     }
     .bgSecourisme
     {
-        background-image: url("../images/Rcr/istockphoto-826951346-1920x445.jpg");
+        background-image: url("../images/Rcr/istockphoto-826951346-768x445.jpg");
         height: 27.8rem;
     }
     .bgReglement
     {
-        background-image: url("../images/Reglements/istockphoto-1160900876-1920x445.jpg");
+        background-image: url("../images/Reglements/istockphoto-1160900876-768x445.jpg");
         height: 27.8rem;
     }
 }
@@ -1166,38 +1176,38 @@ li
 {
     .bgAccueil
     {
-        background-image: url("../images/istockphoto-625735914-1920x445.jpg");
+        background-image: url("../images/Accueil/istockphoto-625735914-414x445.jpg");
         height: 27.8rem;
     }
     .bgPresco
     {
-        background-image: url("../images/Prescolaire/istockphoto-1172435445-1920x445.jpg");
+        background-image: url("../images/Prescolaire/istockphoto-1172435445-414x445.jpg");
         height: 27.8rem;
     }
     .bgJunior
     {
-        background-image: url("../images/Junior/istockphoto-473428034-1920x445.jpg");
+        background-image: url("../images/Junior/istockphoto-473428034-414x445.jpg");
         height: 27.8rem;
     }
     .bgPrivé
     {
-        background-image: url("../images/Coursprivé/istockphoto-178369716-1920x445.jpg");
+        background-image: url("../images/Coursprivé/istockphoto-178369716-414x445.jpg");
         height: 27.8rem;
     }
     .bgContact
     {
-        background-image: url("../images/Contact/istockphoto-1146148499-1920x445.jpg");
+        background-image: url("../images/Contact/istockphoto-1146148499-414x445.jpg");
         height: 27.8rem;
     }
     .bgErreur
     {
-        background-image: url("../images/Erreur/istockphoto-943372530-1920x445.jpg");
+        background-image: url("../images/Erreur/istockphoto-943372530-414x445.jpg");
         height: 27.8rem;
     }
     .bgAquafete
     {
         background-image: url("../images/Aquafete/istockphoto-147252748-414x445.jpg");
-        max-height: 27.8rem;
+        height: 27.8rem;
     }
     .bgAquaforme
     {
@@ -1206,12 +1216,12 @@ li
     }
     .bgSecourisme
     {
-        background-image: url("../images/Rcr/istockphoto-826951346-1920x445.jpg");
+        background-image: url("../images/Rcr/istockphoto-826951346-414x445.jpg");
         height: 27.8rem;
     }
     .bgReglement
     {
-        background-image: url("../images/Reglements/istockphoto-1160900876-1920x445.jpg");
+        background-image: url("../images/Reglements/istockphoto-1160900876-414x445.jpg");
         height: 27.8rem;
     }
 }
@@ -1266,52 +1276,52 @@ li
 {
     .bgAccueil
     {
-        background-image: url("../images/istockphoto-625735914-1920x445.jpg");
+        background-image: url("../images/Accueil/istockphoto-625735914-320x445.jpg");
         height: 27.8rem;
     }
     .bgPresco
     {
-        background-image: url("../images/Prescolaire/istockphoto-1172435445-1920x445.jpg");
+        background-image: url("../images/Prescolaire/istockphoto-1172435445-320x445.jpg");
         height: 27.8rem;
     }
     .bgJunior
     {
-        background-image: url("../images/Junior/istockphoto-473428034-1920x445.jpg");
+        background-image: url("../images/Junior/istockphoto-473428034-320x445.jpg");
         height: 27.8rem;
     }
     .bgPrivé
     {
-        background-image: url("../images/Coursprivé/istockphoto-178369716-1920x445.jpg");
+        background-image: url("../images/Coursprivé/istockphoto-178369716-320x445.jpg");
         height: 27.8rem;
     }
     .bgContact
     {
-        background-image: url("../images/Contact/istockphoto-1146148499-1920x445.jpg");
+        background-image: url("../images/Contact/istockphoto-1146148499-320x445.jpg");
         height: 27.8rem;
     }
     .bgErreur
     {
-        background-image: url("../images/Erreur/istockphoto-943372530-1920x445.jpg");
+        background-image: url("../images/Erreur/istockphoto-943372530-320x445.jpg");
         height: 27.8rem;
     }
     .bgAquafete
     {
         background-image: url("../images/Aquafete/istockphoto-147252748-320x445.jpg");
-        max-height: 27.8rem;
+        height: 27.8rem;
     }
     .bgAquaforme
     {
-        background-image: url("../images/Aquaforme/istockphoto-148233451-1920x445.jpg");
+        background-image: url("../images/Aquaforme/istockphoto-148233451-320x445.jpg");
         height: 27.8rem;
     }
     .bgSecourisme
     {
-        background-image: url("../images/Rcr/istockphoto-826951346-1920x445.jpg");
+        background-image: url("../images/Rcr/istockphoto-826951346-320x445.jpg");
         height: 27.8rem;
     }
     .bgReglement
     {
-        background-image: url("../images/Reglements/istockphoto-1160900876-1920x445.jpg");
+        background-image: url("../images/Reglements/istockphoto-1160900876-320x445.jpg");
         height: 27.8rem;
     }
 }
