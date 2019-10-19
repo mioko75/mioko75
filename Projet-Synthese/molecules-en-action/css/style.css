@@ -31,6 +31,13 @@ hr
 {
     color: #FFFFFF;
 }
+.LogoPresco
+{
+    max-width: 10rem;
+    margin-right: 5rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+}
 .margeEntete
 {
     margin-top: 8.6rem;
@@ -129,6 +136,7 @@ hr
     background-color: #67A480;
     margin: 0;
 }
+
 /*  ******  TYPOGRAPHIE  ******  */
 .utilitaire
 {
@@ -289,7 +297,6 @@ li
     margin-left: 6rem;
     margin-bottom: 1.8rem;
 }
-
 .h4Vertical
 {
     color: #FFFFFF;
@@ -297,7 +304,6 @@ li
     font-size: 1.15rem;
     writing-mode: vertical-lr;
 }
-
 .pFooter
 {
     font-family: "Open Sans Condensed", sans-serif;
@@ -308,7 +314,6 @@ li
     margin-left: 6rem;
     margin-bottom: 0;
 }
-
 .pDroit
 {
     font-family: "Open Sans Condensed", sans-serif;
@@ -328,7 +333,6 @@ li
     font-style: italic;
     font-size: 1.8rem;
 }
-
 .navbar {
     background-color: #4e4d4d;
 }
@@ -430,7 +434,8 @@ li
         color: #f39723;
         background-color: #2e2e2e;
     }
-    .navbar {
+    .nav-item
+    {
         font-size: .9rem; /* modification de taille police de la nav */
     }
 }
@@ -516,6 +521,13 @@ li
         font-weight: bold;
         font-size:1.6rem;
     }
+    .LogoPresco
+    {
+        max-width: 8rem;
+        margin-right: 4rem;
+        margin-top: -1rem;
+        margin-bottom: -3rem;
+    }
 }
 @media screen and (min-width: 1315px) and (max-width: 1425px)
 {
@@ -552,6 +564,13 @@ li
     {
         font-weight: bold;
         font-size:1.5rem;
+    }
+    .LogoPresco
+    {
+        max-width: 8rem;
+        margin-right: 4rem;
+        margin-top: -3rem;
+        margin-bottom: -3rem;
     }
 }
 @media screen and (min-width: 1205px) and (max-width: 1315px)
@@ -603,6 +622,11 @@ li
         text-align: left;
         margin-left: 4rem;
         margin-bottom: 0;
+    }
+    .LogoPresco
+    {
+        max-width: 6.5rem;
+        margin-right: 3rem;
     }
 }
 @media screen and (min-width: 1055px) and (max-width: 1204px)
@@ -662,6 +686,11 @@ li
         border-color: #FFFFFF;
         margin-top: .5rem;
         margin-bottom: .5rem;
+    }
+    .LogoPresco
+    {
+        max-width: 6.5rem;
+        margin-right: 3rem;
     }
 }
 @media screen and (min-width: 864px) and (max-width: 1054px)
@@ -735,6 +764,11 @@ li
         margin-top: .5rem;
         margin-bottom: .5rem;
     }
+    .LogoPresco
+    {
+        max-width: 5.5rem;
+        margin-right: 1.2rem;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 863px)
 {
@@ -806,6 +840,11 @@ li
         border-color: #FFFFFF;
         margin-top: .3rem;
         margin-bottom: .3rem;
+    }
+    .LogoPresco
+    {
+        max-width: 5rem;
+        margin-right: 1rem;
     }
 }
 @media screen and (min-width: 621px) and (max-width: 769px)
@@ -881,6 +920,11 @@ li
         margin-top: .3rem;
         margin-bottom: .3rem;
     }
+    .LogoPresco
+    {
+        max-width: 5rem;
+        margin-right: 1rem;
+    }
 }
 @media screen and (min-width: 575px) and (max-width: 620px)
 {
@@ -953,6 +997,11 @@ li
         border-color: #FFFFFF;
         margin-top: .3rem;
         margin-bottom: .3rem;
+    }
+    .LogoPresco
+    {
+        max-width: 5rem;
+        margin-right: 1rem;
     }
 }
 @media screen and (min-width: 392px) and (max-width: 575px)
@@ -1033,6 +1082,11 @@ li
         margin-top: .3rem;
         margin-bottom: .3rem;
     }
+    .LogoPresco
+    {
+        max-width: 7rem;
+        margin-right: 1.3rem;
+    }
 }
 @media screen and (max-width: 391px)
 {
@@ -1112,4 +1166,9 @@ li
         margin-top: .25rem;
         margin-bottom: .25rem;
     }
+    .LogoPresco
+     {
+         max-width: 5rem;
+         margin-right: 1rem;
+     }
 }
