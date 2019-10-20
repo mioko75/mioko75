@@ -273,6 +273,14 @@ h4
 }
 p
 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 1.63rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+.pEntete
+{
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
     font-size: 1.63rem;
@@ -735,13 +743,9 @@ li
     {
         font-size:2rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1.44rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pDure
     {
@@ -860,13 +864,9 @@ li
     {
         font-size:1.80rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1.30rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pDure
     {
@@ -944,13 +944,9 @@ li
         font-size: 0.9rem;
         margin-bottom: 0.25rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1.19rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pSecourisme
     {
@@ -1063,13 +1059,9 @@ li
         margin-bottom: 0.2rem;
         padding-top: 0.4rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1.08rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pSecourisme
     {
@@ -1120,13 +1112,9 @@ li
     {
         font-size: 1rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1.08rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pCard-box
     {
@@ -1231,13 +1219,9 @@ li
     {
         font-size:1rem;
     }
-    p
+    p, .pEntete
     {
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
         font-size: 1rem;
-        text-align: center;
-        color: #006FAA;
     }
     .pCard-box
     {

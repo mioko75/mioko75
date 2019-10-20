@@ -95,7 +95,7 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="wow slideInLeft" data-wow-duration="1s">CONTACT</h1>
-                <p class="wow slideInRight" data-wow-duration="2500ms">Vous avez des questionnements au sujet des cours? Vous aimeriez réserver des leçons privées ou en
+                <p class="pEntete wow slideInRight" data-wow-duration="2500ms">Vous avez des questionnements au sujet des cours? Vous aimeriez réserver des leçons privées ou en
                     petit groupe?  Vous préparez une fête d'enfants? Contactez-nous, il nous fait toujours plaisisrs de vous répondre.</p>
             </div>
         </div>
@@ -108,14 +108,58 @@
                         <div class="jumbotron my-5 bgBlue">
                             <h2>VIA NOTRE FORMULAIRE</h2>
                             <hr class="my-4">
-                            <h2>PAR ÉCRIT</h2>
-
-                            <!-- Mettre loop content de contact ici -->
-                            <i class="far fa-hand-point-down icone fa-4x py-5 shake-slow"></i>
+                            <p class="text-center">PAR ÉCRIT</p>
                             <p class="lead">
-                                <button type="button" class="btn btn-outline-light mb-3">CONTACTEZ-NOUS</button>
-                            </p>
-                            <h2>OU PAR TÉLÉPHONE AU 819.775.3551</h2>
+                            <form id="myForm" action="FormulaireEnvoye.html">
+                                <div class="form-row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="exampleInputlastname" aria-describedby="lastnameHelp" placeholder="Votre nom">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="exampleInputfirstname" aria-describedby="fisrtnameHelp" placeholder="Votre prénom">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Votre message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <input type="button" onclick="myFunction()" value="Effacer">
+                                <input type="submit" Value="Envoyé"/>
+
+                            </form>
+                            <br>
+                            <script>
+                                function myFunction() {
+                                    document.getElementById("myForm").reset();
+                                }
+                            </script>
+
+                            <i class="far fa-hand-point-down icone fa-4x py-5 shake-slow"></i>
+                            <p class="text-center">OU PAR TÉLÉPHONE AU 819.775.3551</p>
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <div class="col-12">
+                                        <h3 class="text-center">ADRESSE - PISCINE</h3>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-md-7 col-sm-12">
+                                        <h4 class="text-left">Ecole Secondaire Grande-Rivière</h4>
+                                        <p>100, rue Broad<br>
+                                        Gatineau (Sect: Aylmer), Quebec <br>
+                                        PORTE 31</p>
+                                    </div>
+                                    <div class="col-md-5 col-sm-12">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.28189826326!2d-75.84585548405379!3d45.40365474550174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce021d740fc74f%3A0x9b6f4858bcf5b138!2s100%20Rue%20Broad%2C%20Gatineau%2C%20QC%20J9H%206A9!5e0!3m2!1sfr!2sca!4v1571548840354!5m2!1sfr!2sca" max-width="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
