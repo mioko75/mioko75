@@ -1,0 +1,100 @@
+/* Projet Final - Photociti */
+/* Programmé par Sophie B */
+/* 3 avril 2020 */
+
+html, body
+{
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+.container-fluid
+{
+    padding:0;
+    margin: 0;
+}
+
+.row
+{
+    margin: 0;
+}
+
+.col
+{
+    padding: 0;
+}
+.container
+{
+    margin: 0;
+}
+
+.rouge
+{
+    color: red;
+}
+
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+.img-fluid
+{
+    border: 2px white solid;
+}
+
+.fa
+{
+    color: black;
+}
+
+.carre{
+    width:2.5rem;
+    height:2.5rem;
+    border: .1rem solid black;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.backgroundColor{
+    background-color: lavender;
+}
+
+#carreBleu{
+    background-image: url("../images/background/bleu.jpg");
+}
+
+#carreBleuFonce{
+    background-image: url("../images/background/bleuFonce.jpg");
+}
+
+#carreBlanc{
+    background-image: url("../images/background/blanc.jpg");
+}
+
+#carreRouge{
+    background-image: url("../images/background/rouge.jpg");
+}
+
+#carreNoir{
+    background-image: url("../images/background/noir.jpg");
+}
+
+#carreGris{
+    background-image: url("../images/background/gris.jpg");
+}
+
+#carreRose{
+    background-image: url("../images/background/rose.jpg");
+}
+
+
